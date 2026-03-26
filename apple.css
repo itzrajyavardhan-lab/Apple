@@ -43,7 +43,7 @@
 
 #learn{
     height: 50px;
-    width: 120px;
+    width: 150px;
     border-radius: 30px;
     border: none;
     background-color: #0071e3;
@@ -54,7 +54,7 @@
 
 #shop{
     height: 50px;
-    width: 120px;
+    width: 150px;
     border-radius: 30px;
     background-color: white;
     border-color: #0071e3;
@@ -84,19 +84,115 @@
     font-weight: 500px;
     font-size: xx-large;
     margin-top: 0px;
+    margin-left: 50px;
 }
 
 .mediumtext2{
     font-size: larger;
+    margin-left:50px;
 }
 
 #buy{
     height: 50px;
-    width: 120px;
+    width: 150px;
     border-radius: 30px;
     background-color: white;
     border-color: #0071e3;
     color:#0071e3;
     font-size: medium;
     margin-top: 10px;
+}
+
+.iPad{
+    height: 100vh;
+    background-image: url(ipad.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad{
+    position: relative;
+    top: -170px;
+}
+
+.herotext3{
+    font-family:'Hero New', sans-serif;
+    font-weight: 500px;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left:90px;
+}
+
+.mediumtext3{
+    font-size: larger;
+    margin-left: 50px;
+}
+
+.Logo{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    top: 175px;
+}
+
+.mediumtext4{
+    font-family: 'Whitelist', sans-serif;
+    font-size: xx-large;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#read{
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background-color: #0071e3;
+    color:white;
+    font-size: normal;
+    margin-top: 10px;
+}
+
+.promac{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(Macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.macpro{
+    position: relative;
+    top: -170px;
+    right: auto;
+}
+
+.herotext5{
+    font-family:'Hero New', sans-serif;
+    font-weight: 500px;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left:90px;
+    color: white;
+}
+
+.mediumtext5{
+    font-size: larger;
+    margin-left: 50px;
+    color: white;
 }
